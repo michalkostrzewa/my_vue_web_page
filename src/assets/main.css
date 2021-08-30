@@ -35,6 +35,7 @@ a:hover {
 .introduction-bg {
   animation: slide 50s linear infinite;
   will-change: background-position;
+  background-size: cover;
   z-index: -1;
 }
 
