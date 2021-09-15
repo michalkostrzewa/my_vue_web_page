@@ -24,5 +24,8 @@ export default {
     AppPlayer,
     AppModal,
   },
+  created() {
+    this.$store.dispatch("init_login");
+  },
 };
 </script>
