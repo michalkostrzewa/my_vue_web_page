@@ -8,19 +8,7 @@
       </div>
       <!-- Playlist -->
       <ol id="playlist">
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -33,19 +21,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -58,19 +34,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -83,19 +47,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -108,19 +60,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -133,19 +73,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -158,19 +86,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -183,19 +99,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -208,19 +112,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -233,19 +125,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -258,19 +138,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -283,19 +151,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -308,19 +164,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="
-            flex
-            justify-between
-            items-center
-            p-3
-            pl-6
-            cursor-pointer
-            transition
-            duration-300
-            hover:bg-gray-50
-          "
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>

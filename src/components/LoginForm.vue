@@ -1,10 +1,6 @@
 <template>
   <div>
-    <div
-      class="text-white text-center font-bold p-5 mb-4"
-      v-if="login_show_alert"
-      :class="login_alert_varinat"
-    >
+    <div class="text-white text-center font-bold p-5 mb-4" v-if="login_show_alert" :class="login_alert_varinat">
       {{ login_alert_msg }}
     </div>
     <VeeForm :validation-schema="loginSchema" @submit="login">
@@ -55,17 +51,7 @@
       <button
         type="submit"
         :disabled="login_in_submission"
-        class="
-          block
-          w-full
-          bg-purple-600
-          text-white
-          py-1.5
-          px-3
-          rounded
-          transition
-          hover:bg-purple-700
-        "
+        class="block w-full bg-purple-600 text-white py-1.5 px-3 rounded transition hover:bg-purple-700"
       >
         Submit
       </button>

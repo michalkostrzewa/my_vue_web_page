@@ -11662,7 +11662,7 @@
     "vue-hot-reload-api" "^2.3.0"
     "vue-style-loader" "^4.1.0"
 
-"vue-router@^4.0.0-0":
+"vue-router@^4.0.11":
   "integrity" "sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg=="
   "resolved" "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.11.tgz"
   "version" "4.0.11"

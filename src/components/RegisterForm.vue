@@ -1,17 +1,9 @@
 <template>
   <div>
-    <div
-      class="text-white text-center font-bold p-5 mb-4"
-      v-if="reg_show_alert"
-      :class="reg_alert_varinat"
-    >
+    <div class="text-white text-center font-bold p-5 mb-4" v-if="reg_show_alert" :class="reg_alert_varinat">
       {{ reg_alert_msg }}
     </div>
-    <VeeForm
-      :validation-schema="schema"
-      @submit="register"
-      :initial-values="userData"
-    >
+    <VeeForm :validation-schema="schema" @submit="register" :initial-values="userData">
       <!-- Name -->
       <div class="mb-3">
         <label class="inline-block mb-2">Name</label>
@@ -153,29 +145,14 @@
       </div>
       <!-- TOS -->
       <div class="mb-3 pl-6">
-        <VeeField
-          name="tos"
-          value="1"
-          type="checkbox"
-          class="w-4 h-4 float-left -ml-6 mt-1 rounded"
-        />
+        <VeeField name="tos" value="1" type="checkbox" class="w-4 h-4 float-left -ml-6 mt-1 rounded" />
         <label class="inline-block">Accept terms of service</label>
         <ErrorMessage class="text-red-600" name="tos" />
       </div>
       <button
         type="submit"
         :disabled="reg_in_submission"
-        class="
-          block
-          w-full
-          bg-purple-600
-          text-white
-          py-1.5
-          px-3
-          rounded
-          transition
-          hover:bg-purple-700
-        "
+        class="block w-full bg-purple-600 text-white py-1.5 px-3 rounded transition hover:bg-purple-700"
       >
         Submit
       </button>
@@ -219,8 +196,7 @@ export default {
       } catch (error) {
         this.reg_in_submission = false;
         this.reg_alert_varinat = "bg-red-500";
-        this.reg_alert_msg =
-          "An unexpected error occured. Please try again later.";
+        this.reg_alert_msg = "An unexpected error occured. Please try again later.";
         return;
       }
 

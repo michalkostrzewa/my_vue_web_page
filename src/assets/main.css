@@ -2,15 +2,15 @@ a {
   transition: all 0.15s ease;
 }
 
-/* text-yellow-500 */
+/* text-blue-300 */
 a:hover {
-  color: #f59e0b;
+  color: #93c5fd;
   text-decoration: none;
 }
 
 .text-orange {
-  color: #f59e0b !important;
-  fill: #f59e0b !important;
+  color: #93c5fd !important;
+  fill: #93c5fd !important;
 }
 
 .player-scrub,
