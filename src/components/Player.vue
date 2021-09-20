@@ -24,7 +24,7 @@
             <i class="fas fa-circle"></i>
           </span>
           <!-- Player Progress Bar-->
-          <span class="block h-2 rounded bg-gradient-to-r from-green-500 to-green-400" style="width: 50%"></span>
+          <span class="block h-2 rounded bg-gradient-to-r from-blue-500 to-blue-400" style="width: 50%"></span>
         </span>
       </div>
       <!-- Duration -->
