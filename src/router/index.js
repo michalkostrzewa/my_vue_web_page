@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import Manage from "@/views/Manage.vue";
+import File from "@/views/File.vue";
 import store from '@/store';
 
 const routes = [
@@ -22,6 +23,12 @@ const routes = [
             requiresAuth: true,
         },
         component: Manage,
+    },
+    {
+        name: 'file',
+        path: '/file/:id',
+        component: File,
+
     },
     {
         path: '/:catchAll(.*)*',

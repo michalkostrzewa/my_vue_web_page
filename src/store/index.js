@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-import { auth, userCollection } from "@/includes/firebase";
+import { auth, usersCollection } from "@/includes/firebase";
 
 export default createStore({
     state: {
@@ -27,14 +27,14 @@ export default createStore({
                 payload.email,
                 payload.password
             );
-            await userCollection.doc(userCred.user.uid).set({
+            await usersCollection.doc(userCred.user.uid).set({
                 name: payload.name,
                 email: payload.email,
                 age: payload.age,
                 country: payload.country,
             });
 
-            await userCred.user.updateProfile({ displayname: payload.name })
+            await userCred.user.updateProfile({ displayName: payload.name })
 
             commit("loggedIn");
         },
